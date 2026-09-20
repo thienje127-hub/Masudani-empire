@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO OPTIMIZATION: Giúp Google hiểu trang web này là gì -->
+    <title>Official Portal | People's Republic of Masudani & ALKÓ Corp</title>
+    <meta name="description" content="Trang thông tin chính thức của Đế chế Masudani (Masudani Empire). Tin tức về Thủ tướng Alkro Kenja, Tập đoàn ALKÓ, và Chiến dịch Tái thiết Visengrad.">
+    <meta name="keywords" content="Masudani, Masudani Empire, ALKO Corporation, Alkro Kenja, Prevolt, NRP, Geopolitics">
+    <meta name="author" content="Imperial Media Bureau">
+
+    <style>
+        :root {
+            --primary-red: #8B0000; /* Đỏ thẫm đế chế */
+            --gold: #D4AF37;
+            --dark-grey: #1a1a1a;
+            --light-bg: #f4f4f4;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background-color: var(--primary-red);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--gold);
+        }
+
+        h1 { margin: 0; font-size: 2.5rem; text-transform: uppercase; letter-spacing: 2px; }
+        .subtitle { font-style: italic; opacity: 0.9; margin-top: 10px; }
+
+        /* CONTAINER */
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr; /* Chia cột: Nội dung chính & Sidebar */
+            gap: 2rem;
+        }
+
+        /* MAIN CONTENT */
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        h2 { color: var(--primary-red); border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        
+        .btn {
+            display: inline-block;
+            background: var(--dark-grey);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .btn:hover { background: var(--gold); color: black; }
+
+        /* SIDEBAR */
+        .sidebar .stat-box {
+            background: var(--dark-grey);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .stat-number { font-size: 2rem; font-weight: bold; color: var(--gold); }
+
+        /* FOOTER */
+        footer {
+            background: var(--dark-grey);
+            color: #888;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MASUDANI EMPIRE</h1>
+        <div class="subtitle">People's Republic of Masudani | Official State Portal</div>
+    </header>
+
+    <div class="container">
+        <!-- CỘT NỘI DUNG CHÍNH -->
+        <main>
+            <section class="card">
+                <h2> Latest Imperial Decree</h2>
+                <p><strong>PREVOLT CITY</strong> — Prime Minister Alkro Kenja has officially announced the "Brownie Preservation Act", establishing new national standards for culinary heritage and supporting small-scale artisans across the empire.</p>
+                <p>The initiative aims to diversify the national economy beyond heavy industry, fostering social cohesion through cultural traditions.</p>
+                <a href="#" class="btn">Read Full Decree</a>
+            </section>
+
+            <section class="card">
+                <h2>🏭 ALKÓ Corporation Update</h2>
+                <p>ALKÓ Conglomerate reports record growth in Q3 1997. The newly signed strategic partnership with Frosteyra Republic for Northern Rothmark reconstruction is now operational.</p>
+                <ul>
+                    <li>✅ 200,000 Hectares Agricultural Zone Secured</li>
+                    <li>✅ Environmental Cleanup Vanguard Deployed</li>
+                    <li>✅ Joint Venture Aquaculture Initiative Launched</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- CỘT SIDEBAR (THỐNG KÊ) -->
+        <aside class="sidebar">
+            <div class="stat-box">
+                <div class="stat-number">888M+</div>
+                <div>Citizens</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">$11.3T</div>
+                <div>GDP (Nominal)</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">4.0M</div>
+                <div>Active Troops</div>
+            </div>
+            
+            <div class="card" style="margin-top: 2rem;">
+                <h3>Quick Links</h3>
+                <ul style="padding-left: 20px; line-height: 1.8;">
+                    <li>Imperial Army Status</li>
+                    <li>Visit Prevolt (Tourism)</li>
+                    <li>ALKÓ Investor Relations</li>
+                    <li>National Census Data</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        &copy; 1997 Imperial Media Bureau. All Rights Reserved.<br>
+        Powered by AlNet Infrastructure.
+    </footer>
+
+</body>
+</html>
